@@ -36,33 +36,9 @@
     </div>
     <script src="app.js"></script>
 </body>
-</html>
-/* styles.css */
-/* styles.css */
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yellow Background</title>
-</head>
-<body style="background-color: yellow;">
-    <h1>This page has a yellow background!</h1>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yellow Background</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1>This page has a yellow background!</h1>
-</body>
-</html>
-/* styles.css */
-body {
-    background-color: yellow;
-}
+# Digital Book Portal
+
+## Yellow Background with QR Code
+
+![Yellow Background](path/to/your/yellow-background.png)
+![QR Code](path/to/your/qr-code.png)
