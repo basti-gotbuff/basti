@@ -36,9 +36,24 @@
     </div>
     <script src="app.js"></script>
 </body>
-# Digital Book Portal
+from PIL import Image, ImageDraw
+import qrcode
 
-## Yellow Background with QR Code
+# Create a yellow background image
+width, height = 300, 300
+yellow_background = Image.new('RGB', (width, height), color='yellow')
 
-![Yellow Background](path/to/your/yellow-background.png)
-![QR Code](path/to/your/qr-code.png)
+# Generate a QR code
+qr = qrcode.QRCode(version=1, error_correction=qrcode.constants.ERROR_CORRECT_L, box_size=10, border=4)
+qr.add_data('https://www.example.com')
+qr.make(fit=True)
+qr_code = qr.make_image(fill_color="black", back_color="yellow")
+
+# Overlay the QR code onto the yellow background
+qr_code = qr_code.resize((150, 150))
+yellow_background.paste(qr_code, (75, 75))
+
+# Save the final image
+yellow_background.save('yellow_background_with_qr.png')
+yellow_background.show()
+
