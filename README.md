@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Book Portal</title>
+    <title>Sum-ag National High School Digital Library</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
